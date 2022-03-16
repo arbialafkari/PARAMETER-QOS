@@ -1,0 +1,26 @@
+PARAMETER QOS
+
+-THROUGHTOUT
+ 	jumlah bytes : time span = hasil bytes
+	102820952 : 620.320 =165,75469435130255352076347691514 b x 8
+			=1326 k
+
+-PACKET LOSS
+((paket yang dikirim -paket yang diterima):paket yang dikirm)x 100
+	=((119318-117.584):119318)x100
+	=(1.734:119318)x100
+	=0,01453259357347592148711845656146 x 100
+	=1,4532593573475921487118456561458
+
+
+-DELAY
+	total delay: 619,610841 s
+	rata rata delay = 0,005202529 s x 1000
+			=5,202529 ms
+
+
+-JITTER
+	total jitter : -0,483263 s
+	rata rata jitter = -4,05769E-06 s x 1000
+			= -4057,69E-06
+
